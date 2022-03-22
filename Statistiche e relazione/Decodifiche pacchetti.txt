@@ -1,0 +1,944 @@
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.003704380    127.0.0.1             127.0.0.1             HTTP     621    GET / HTTP/1.1 
+
+Frame 13: 621 bytes on wire (4968 bits), 621 bytes captured (4968 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54670, Dst Port: 81, Seq: 1, Ack: 1, Len: 555
+Hypertext Transfer Protocol
+    GET / HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Sec-Fetch-Site: none\r\n
+    Sec-Fetch-Mode: navigate\r\n
+    Sec-Fetch-User: ?1\r\n
+    Sec-Fetch-Dest: document\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    \r\n
+    [Full request URI: http://localhost:81/]
+    [HTTP request 1/1]
+    [Response in frame: 15]
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.004774652    127.0.0.1             127.0.0.1             HTTP     1277   HTTP/1.0 200 OK  (text/html)
+
+Frame 15: 1277 bytes on wire (10216 bits), 1277 bytes captured (10216 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54670, Seq: 1, Ack: 556, Len: 1211
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:30:43 GMT\r\n
+    Set-Cookie: UserID=1; Expires=Tue, 29 Dec 2021 23:59:59 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 936 \r\n
+    Content-Type: text/html; charset=us-ascii\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.001070272 seconds]
+    [Request in frame: 13]
+    [Request URI: http://localhost:81/]
+    File Data: 936 bytes
+Line-based text data: text/html (41 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.037324689    127.0.0.1             127.0.0.1             HTTP     504    GET /css/stile.css HTTP/1.1 
+
+Frame 20: 504 bytes on wire (4032 bits), 504 bytes captured (4032 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54674, Dst Port: 81, Seq: 1, Ack: 1, Len: 438
+Hypertext Transfer Protocol
+    GET /css/stile.css HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/css,*/*;q=0.1\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: style\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/css/stile.css]
+    [HTTP request 1/1]
+    [Response in frame: 28]
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.037661402    127.0.0.1             127.0.0.1             HTTP     531    GET /images/calendar.png HTTP/1.1 
+
+Frame 27: 531 bytes on wire (4248 bits), 531 bytes captured (4248 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54678, Dst Port: 81, Seq: 1, Ack: 1, Len: 465
+Hypertext Transfer Protocol
+    GET /images/calendar.png HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: image\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/images/calendar.png]
+    [HTTP request 1/1]
+    [Response in frame: 32]
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.037661699    127.0.0.1             127.0.0.1             HTTP     350    HTTP/1.0 200 OK  (text/css)
+
+Frame 28: 350 bytes on wire (2800 bits), 350 bytes captured (2800 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54674, Seq: 1, Ack: 439, Len: 284
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:30:43 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 89 \r\n
+    Content-Type: text/css;\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:53 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.000337010 seconds]
+    [Request in frame: 20]
+    [Request URI: http://localhost:81/css/stile.css]
+    File Data: 89 bytes
+Line-based text data: text/css (10 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.038224471    127.0.0.1             127.0.0.1             HTTP     27617  HTTP/1.0 200 OK  (PNG)
+
+Frame 32: 27617 bytes on wire (220936 bits), 27617 bytes captured (220936 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54678, Seq: 1, Ack: 466, Len: 27551
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:30:43 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 27337 \r\n
+    Content-Type: image/png; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:37:26 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.000563069 seconds]
+    [Request in frame: 27]
+    [Request URI: http://localhost:81/images/calendar.png]
+    File Data: 27337 bytes
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 0.050255895    127.0.0.1             127.0.0.1             HTTP     532    GET /images/uncadunca.jpg HTTP/1.1 
+
+Frame 44: 532 bytes on wire (4256 bits), 532 bytes captured (4256 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54682, Dst Port: 81, Seq: 1, Ack: 1, Len: 466
+Hypertext Transfer Protocol
+    GET /images/uncadunca.jpg HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: image\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/images/uncadunca.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 46]
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 0.050571699    127.0.0.1             127.0.0.1             HTTP     14512  HTTP/1.0 200 OK  (JPEG JFIF image)
+
+Frame 46: 14512 bytes on wire (116096 bits), 14512 bytes captured (116096 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54682, Seq: 1, Ack: 467, Len: 14446
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:30:43 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 14231 \r\n
+    Content-Type: image/jpeg; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:37:26 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.000315804 seconds]
+    [Request in frame: 44]
+    [Request URI: http://localhost:81/images/uncadunca.jpg]
+    File Data: 14231 bytes
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 0.118730216    127.0.0.1             127.0.0.1             HTTP     566    GET /favicon.ico HTTP/1.1 
+
+Frame 56: 566 bytes on wire (4528 bits), 566 bytes captured (4528 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54686, Dst Port: 81, Seq: 1, Ack: 1, Len: 500
+Hypertext Transfer Protocol
+    GET /favicon.ico HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    Pragma: no-cache\r\n
+    Cache-Control: no-cache\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: empty\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/favicon.ico]
+    [HTTP request 1/1]
+    [Response in frame: 58]
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 0.119404983    127.0.0.1             127.0.0.1             HTTP     1700   HTTP/1.0 200 OK  (image/vnd.microsoft.icon)
+
+Frame 58: 1700 bytes on wire (13600 bits), 1700 bytes captured (13600 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54686, Seq: 1, Ack: 501, Len: 1634
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:30:43 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 1406 \r\n
+    Content-Type: image/vnd.microsoft.icon; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.000674767 seconds]
+    [Request in frame: 56]
+    [Request URI: http://localhost:81/favicon.ico]
+    File Data: 1406 bytes
+Media Type
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 32.022524324   127.0.0.1             127.0.0.1             HTTP     665    GET /epochtime.html HTTP/1.1 
+
+Frame 85: 665 bytes on wire (5320 bits), 665 bytes captured (5320 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54700, Dst Port: 81, Seq: 1, Ack: 1, Len: 599
+Hypertext Transfer Protocol
+    GET /epochtime.html HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: navigate\r\n
+    Sec-Fetch-User: ?1\r\n
+    Sec-Fetch-Dest: document\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/epochtime.html]
+    [HTTP request 1/1]
+    [Response in frame: 87]
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 32.023857611   127.0.0.1             127.0.0.1             HTTP     1460   HTTP/1.0 200 OK  (text/html)
+
+Frame 87: 1460 bytes on wire (11680 bits), 1460 bytes captured (11680 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54700, Seq: 1, Ack: 600, Len: 1394
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:15 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 1179 \r\n
+    Content-Type: text/html; charset=us-ascii\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.001333287 seconds]
+    [Request in frame: 85]
+    [Request URI: http://localhost:81/epochtime.html]
+    File Data: 1179 bytes
+Line-based text data: text/html (22 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 32.050690654   127.0.0.1             127.0.0.1             HTTP     547    GET /images/1234567890.png HTTP/1.1 
+
+Frame 92: 547 bytes on wire (4376 bits), 547 bytes captured (4376 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54704, Dst Port: 81, Seq: 1, Ack: 1, Len: 481
+Hypertext Transfer Protocol
+    GET /images/1234567890.png HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: image\r\n
+    Referer: http://localhost:81/epochtime.html\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/images/1234567890.png]
+    [HTTP request 1/1]
+    [Response in frame: 100]
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 32.052970898   127.0.0.1             127.0.0.1             HTTP     19231  HTTP/1.0 200 OK  (PNG)
+
+Frame 100: 19231 bytes on wire (153848 bits), 19231 bytes captured (153848 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54704, Seq: 98520, Ack: 482, Len: 19165
+[5 Reassembled TCP Segments (117684 bytes): #94(32768), #96(215), #97(32768), #99(32768), #100(19165)]
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:15 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 117469 \r\n
+    Content-Type: image/png; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:37:26 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.002280244 seconds]
+    [Request in frame: 92]
+    [Request URI: http://localhost:81/images/1234567890.png]
+    File Data: 117469 bytes
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 47.400887098   127.0.0.1             127.0.0.1             HTTP     671    GET /internet40years.html HTTP/1.1 
+
+Frame 116: 671 bytes on wire (5368 bits), 671 bytes captured (5368 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54708, Dst Port: 81, Seq: 1, Ack: 1, Len: 605
+Hypertext Transfer Protocol
+    GET /internet40years.html HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: navigate\r\n
+    Sec-Fetch-User: ?1\r\n
+    Sec-Fetch-Dest: document\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/internet40years.html]
+    [HTTP request 1/1]
+    [Response in frame: 118]
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 47.402357922   127.0.0.1             127.0.0.1             HTTP     1874   HTTP/1.0 200 OK  (text/html)
+
+Frame 118: 1874 bytes on wire (14992 bits), 1874 bytes captured (14992 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54708, Seq: 1, Ack: 606, Len: 1808
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:31 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 1593 \r\n
+    Content-Type: text/html; charset=us-ascii\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.001470824 seconds]
+    [Request in frame: 116]
+    [Request URI: http://localhost:81/internet40years.html]
+    File Data: 1593 bytes
+Line-based text data: text/html (36 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 47.440175402   127.0.0.1             127.0.0.1             HTTP     552    GET /images/kleinrock.jpg HTTP/1.1 
+
+Frame 123: 552 bytes on wire (4416 bits), 552 bytes captured (4416 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54712, Dst Port: 81, Seq: 1, Ack: 1, Len: 486
+Hypertext Transfer Protocol
+    GET /images/kleinrock.jpg HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: image\r\n
+    Referer: http://localhost:81/internet40years.html\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/images/kleinrock.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 125]
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 47.440702189   127.0.0.1             127.0.0.1             HTTP     27047  HTTP/1.0 200 OK  (JPEG JFIF image)
+
+Frame 125: 27047 bytes on wire (216376 bits), 27047 bytes captured (216376 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54712, Seq: 1, Ack: 487, Len: 26981
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:31 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 26766 \r\n
+    Content-Type: image/jpeg; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:37:26 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.000526787 seconds]
+    [Request in frame: 123]
+    [Request URI: http://localhost:81/images/kleinrock.jpg]
+    File Data: 26766 bytes
+JPEG File Interchange Format
+
+No.     Time           Source                Destination           Protocol Length Info
+    142 49.816066213   127.0.0.1             127.0.0.1             HTTP     666    GET /web20years.html HTTP/1.1 
+
+Frame 142: 666 bytes on wire (5328 bits), 666 bytes captured (5328 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54716, Dst Port: 81, Seq: 1, Ack: 1, Len: 600
+Hypertext Transfer Protocol
+    GET /web20years.html HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: navigate\r\n
+    Sec-Fetch-User: ?1\r\n
+    Sec-Fetch-Dest: document\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/web20years.html]
+    [HTTP request 1/1]
+    [Response in frame: 144]
+
+No.     Time           Source                Destination           Protocol Length Info
+    144 49.817534488   127.0.0.1             127.0.0.1             HTTP     1352   HTTP/1.0 200 OK  (text/html)
+
+Frame 144: 1352 bytes on wire (10816 bits), 1352 bytes captured (10816 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54716, Seq: 1, Ack: 601, Len: 1286
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:33 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 1071 \r\n
+    Content-Type: text/html; charset=us-ascii\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.001468275 seconds]
+    [Request in frame: 142]
+    [Request URI: http://localhost:81/web20years.html]
+    File Data: 1071 bytes
+Line-based text data: text/html (22 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    149 49.840922640   127.0.0.1             127.0.0.1             HTTP     548    GET /images/web20years.png HTTP/1.1 
+
+Frame 149: 548 bytes on wire (4384 bits), 548 bytes captured (4384 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54720, Dst Port: 81, Seq: 1, Ack: 1, Len: 482
+Hypertext Transfer Protocol
+    GET /images/web20years.png HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: image\r\n
+    Referer: http://localhost:81/web20years.html\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/images/web20years.png]
+    [HTTP request 1/1]
+    [Response in frame: 160]
+
+No.     Time           Source                Destination           Protocol Length Info
+    160 49.849131987   127.0.0.1             127.0.0.1             HTTP     11766  HTTP/1.0 200 OK  (PNG)
+
+Frame 160: 11766 bytes on wire (94128 bits), 11766 bytes captured (94128 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54720, Seq: 131288, Ack: 483, Len: 11700
+[6 Reassembled TCP Segments (142987 bytes): #151(32768), #153(215), #154(32768), #157(32768), #158(32768), #160(11700)]
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:33 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 142772 \r\n
+    Content-Type: image/png; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:37:26 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.008209347 seconds]
+    [Request in frame: 149]
+    [Request URI: http://localhost:81/images/web20years.png]
+    File Data: 142772 bytes
+Portable Network Graphics
+
+No.     Time           Source                Destination           Protocol Length Info
+    175 52.586400553   127.0.0.1             127.0.0.1             HTTP     807    POST /index.html HTTP/1.1  (application/x-www-form-urlencoded)
+
+Frame 175: 807 bytes on wire (6456 bits), 807 bytes captured (6456 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54724, Dst Port: 81, Seq: 1, Ack: 1, Len: 741
+Hypertext Transfer Protocol
+    POST /index.html HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    Content-Length: 21\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    Origin: http://localhost:81\r\n
+    Content-Type: application/x-www-form-urlencoded\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: navigate\r\n
+    Sec-Fetch-User: ?1\r\n
+    Sec-Fetch-Dest: document\r\n
+    Referer: http://localhost:81/\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/index.html]
+    [HTTP request 1/1]
+    [Response in frame: 177]
+    File Data: 21 bytes
+HTML Form URL Encoded: application/x-www-form-urlencoded
+
+No.     Time           Source                Destination           Protocol Length Info
+    177 52.586941394   127.0.0.1             127.0.0.1             HTTP     610    HTTP/1.0 501 Method Not Implemented  (text/html)
+
+Frame 177: 610 bytes on wire (4880 bits), 610 bytes captured (4880 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54724, Seq: 1, Ack: 742, Len: 544
+Hypertext Transfer Protocol
+    HTTP/1.0 501 Method Not Implemented\r\n
+    Allow: HEAD,GET\r\n
+    Date: Tue, 29 Dec 2020 13:31:36 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 311 \r\n
+    Content-Type: text/html\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.000540841 seconds]
+    [Request in frame: 175]
+    [Request URI: http://localhost:81/index.html]
+    File Data: 311 bytes
+Line-based text data: text/html (12 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    187 52.616479975   127.0.0.1             127.0.0.1             HTTP     514    GET /000_style.css HTTP/1.1 
+
+Frame 187: 514 bytes on wire (4112 bits), 514 bytes captured (4112 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54728, Dst Port: 81, Seq: 1, Ack: 1, Len: 448
+Hypertext Transfer Protocol
+    GET /000_style.css HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: text/css,*/*;q=0.1\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: style\r\n
+    Referer: http://localhost:81/index.html\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/000_style.css]
+    [HTTP request 1/1]
+    [Response in frame: 191]
+
+No.     Time           Source                Destination           Protocol Length Info
+    189 52.616803753   127.0.0.1             127.0.0.1             HTTP     535    GET /uncadunca.jpg HTTP/1.1 
+
+Frame 189: 535 bytes on wire (4280 bits), 535 bytes captured (4280 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 54732, Dst Port: 81, Seq: 1, Ack: 1, Len: 469
+Hypertext Transfer Protocol
+    GET /uncadunca.jpg HTTP/1.1\r\n
+    Host: localhost:81\r\n
+    Connection: keep-alive\r\n
+    User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\r\n
+    Accept: image/webp,image/apng,image/*,*/*;q=0.8\r\n
+    Sec-Fetch-Site: same-origin\r\n
+    Sec-Fetch-Mode: no-cors\r\n
+    Sec-Fetch-Dest: image\r\n
+    Referer: http://localhost:81/index.html\r\n
+    Accept-Encoding: gzip, deflate, br\r\n
+    Accept-Language: it-IT,it;q=0.9,en-US;q=0.8,en;q=0.7\r\n
+    Cookie: UserID=1\r\n
+    \r\n
+    [Full request URI: http://localhost:81/uncadunca.jpg]
+    [HTTP request 1/1]
+    [Response in frame: 196]
+
+No.     Time           Source                Destination           Protocol Length Info
+    191 52.637646890   127.0.0.1             127.0.0.1             HTTP     364    HTTP/1.0 200 OK  (text/css)
+
+Frame 191: 364 bytes on wire (2912 bits), 364 bytes captured (2912 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54728, Seq: 1, Ack: 449, Len: 298
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:36 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 102 \r\n
+    Content-Type: text/css;\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.021166915 seconds]
+    [Request in frame: 187]
+    [Request URI: http://localhost:81/000_style.css]
+    File Data: 102 bytes
+Line-based text data: text/css (10 lines)
+
+No.     Time           Source                Destination           Protocol Length Info
+    196 52.642439919   127.0.0.1             127.0.0.1             HTTP     12666  HTTP/1.0 200 OK  (JPEG JFIF image)
+
+Frame 196: 12666 bytes on wire (101328 bits), 12666 bytes captured (101328 bits) on interface lo, id 0
+Ethernet II, Src: 00:00:00_00:00:00 (00:00:00:00:00:00), Dst: 00:00:00_00:00:00 (00:00:00:00:00:00)
+    Destination: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        Address: 00:00:00_00:00:00 (00:00:00:00:00:00)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 81, Dst Port: 54732, Seq: 1, Ack: 470, Len: 12600
+Hypertext Transfer Protocol
+    HTTP/1.0 200 OK\r\n
+    Date: Tue, 29 Dec 2020 13:31:36 GMT\r\n
+    Server: incApache for SET.\r\n
+    Connection: close\r\n
+    Content-Length: 12385 \r\n
+    Content-Type: image/jpeg; charset=binary\r\n
+    Last-Modified: Tue, 03 Dec 2019 13:36:19 GMT\r\n
+    \r\n
+    [HTTP response 1/1]
+    [Time since request: 0.025636166 seconds]
+    [Request in frame: 189]
+    [Request URI: http://localhost:81/uncadunca.jpg]
+    File Data: 12385 bytes
+JPEG File Interchange Format
